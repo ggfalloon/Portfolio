@@ -1,0 +1,32 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 16px;
+}
+
+header {
+    text-align: center;
+    font-size: 25px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.box {
+    width: 350px;
+    height: 350px;
+}
+
+
+footer {
+    
+    background-color:rgba(18, 110, 133, 0.637); 
+    text-align: center;
+    list-style-type: none;  
+}
+
+.gold {
+    border-color: rgba(255, 208, 0, 0.932);
+    border-width: 2em;
+}
