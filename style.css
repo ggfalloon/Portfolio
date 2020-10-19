@@ -4,7 +4,6 @@ body {
     margin-left: 15%;
     margin-right: 15%;
     font-size: 16px;
-    text-align: center;
 }
 
 .nav-item-color {
@@ -14,24 +13,14 @@ body {
 .about-me {
     border: 1px solid rgba(255, 208, 0, 0.932);
     padding: 10px;
+    overflow: auto;
 }
-
-
-
-.gold {
-    border-color: rgba(255, 208, 0, 0.932);
-    border-width: 2em;
-}
-
-
-
-
 
 
 footer {
-    overflow: auto;
     background-color:rgba(18, 110, 133, 0.637); 
     text-align: center;
     list-style-type: none; 
+    margin: 0%;
      
 }
