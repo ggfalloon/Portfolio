@@ -11,112 +11,120 @@
 </head>
 
 <body>
-    <nav class="navbar sticky-top navbar navbar-expand-lg navbar-dark"
+    <nav class="navbar sticky-top navbar navbar-expand-md navbar-dark"
         style="background-color:rgba(18, 110, 133, 0.637);">
-        <a class="navbar-brand" href="#">Gabriele Falloon</a>
+        <div class="container">
+            <a class="navbar-brand">Gabriele Falloon</a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
 
-        <div class="nav justify-content-end ml-auto" id="navbarSupportedContent">
-            <ul class="nav justify-content-end" id="navbarSupportedContent">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container-fluid" style="padding: 0px">
         <div class="row">
             <div class="col-md-12">
-                <div class="jumbotron jumbotron-fluid">
-                    <h1 class="display-4">Gabriele Falloon</h1>
-                    <p class="lead">Full Stack Web Developer</p>
+                <div class="card bg-dark text-white">
+                    <img src="https://poly.land/wp-content/uploads/2019/05/someone-typing-on-a-laptop.jpg"
+                        class="img-fluid" alt="me at a computer" width="100%">
+                    <div class="card-img-overlay">
+                        <h1 class="display-4">Gabriele Falloon</h1>
+                        <p class="card-text">Full Stack Web Developer</p>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="row">
-            <div class="col-md-8">
-                <div class="page-header">
-                    <h2>About Me</h2>
-                    <section class="details">
-                        <p>I am working to receive my certificate in Full Stack Web Development from the University of
-                            Texas at San
-                            Antonio's School of Data Science. </p>
-                        <p>I'm looking forward to contributing my knowledge and skillset to a company that is pushing
-                            the
-                            boundaries of technology and utilizing all the incredible possiblities of coding. When I'm
-                            not coding, I am
-                            cooking and staying fit. I also love to travel, so when time allows, I am seeing
-                            the world.
-                        <p>As a web developer, I can use my skills to enhance the web and improve on application design.
-                            I
-                            thoroughly enjoy the problem-solving and creativity that comes with this field . It is so
-                            rewarding to help
-                            build and maintain something so vital and useful.</p>
-                    </section>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <h2>Skills</h2>
-                <table class="table table-dark">
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Last</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>HTML</td>
-                            <td>CSS</td>
-                            <td>Bootstrap</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Javascript</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                        </tr>
-                    </tbody>
-                </table>
+    <div class="row" style="margin-top: 20px; margin-bottom: 20px;">
+        <div class="col-md-7">
+            <div class="page-header">
+                <h2>About Me</h2>
+                <section class="details">
+                    <p>I am currently working on acheiving a certificate in Full Stack Web Development from the
+                        University of
+                        Texas at San
+                        Antonio's School of Data Science. </p>
+                    <p>I'm looking forward to contributing my knowledge and skillset to a company that is pushing
+                        the
+                        boundaries of technology and utilizing all the incredible possiblities of coding. When I'm
+                        not coding, I am
+                        cooking and staying fit. I also love to travel, so when time allows, I am seeing
+                        the world.
+                    <p>As a web developer, I'm able to use my skills to enhance the web, improve upon application
+                        design and optimal performance.
+                        I love
+                        problem-solving and being creative. It is so
+                        rewarding to help build and maintain something so vital and useful to society.</p>
+                </section>
             </div>
         </div>
 
 
-        <div class="row">
-            <div class="col-md-12">
-                <footer class="footer mt-auto py-3" id="footer">
-
-                    <a href="https://github.com/ggfalloon"
-                        onclick="_gaq.push(['_trackEvent', 'exit', 'footer', 'GitHub']);"><span
-                            class="fa fa-github"></span>
-                        <img src=https://www.flaticon.com/svg/static/icons/svg/25/25231.svg alt="github logo"
-                            width="40px" /></a>
-
-
-                    <a href="https://www.linkedin.com/in/gabriele-falloon/"
-                        onclick="_gaq.push(['_trackEvent', 'exit', 'footer', 'LinkedIn']);"><span
-                            class="fa fa-LinkedIn"></span><img
-                            src="https://cdn.iconscout.com/icon/free/png-256/linkedin-154-459182.png"
-                            alt="linkedin logo" width="40px" /></a>
-                </footer>
-            </div>
+        <div class="col-md-4">
+            <h2>Skills</h2>
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Last</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>HTML</td>
+                        <td>CSS</td>
+                        <td>Bootstrap</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Javascript</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <footer class="footer mt-auto py-3" id="footer">
+
+                <a href="https://github.com/ggfalloon"
+                    onclick="_gaq.push(['_trackEvent', 'exit', 'footer', 'GitHub']);"><span class="fa fa-github"></span>
+                    <img src=https://www.flaticon.com/svg/static/icons/svg/25/25231.svg alt="github logo"
+                        width="40px" /></a>
+
+
+                <a href="https://www.linkedin.com/in/gabriele-falloon/"
+                    onclick="_gaq.push(['_trackEvent', 'exit', 'footer', 'LinkedIn']);"><span
+                        class="fa fa-LinkedIn"></span><img
+                        src="https://cdn.iconscout.com/icon/free/png-256/linkedin-154-459182.png" alt="linkedin logo"
+                        width="40px" /></a>
+            </footer>
+        </div>
+    </div>
     </div>
 
 </body>

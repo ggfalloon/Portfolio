@@ -10,6 +10,11 @@ body {
     color: white;
 }
 
+.card-img {
+    max-width: 100%; 
+    height: auto;
+}
+
 .about-me {
     border: 1px solid rgba(255, 208, 0, 0.932);
     padding: 10px;
