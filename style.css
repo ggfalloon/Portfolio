@@ -11,6 +11,10 @@ body {
     color: white;
 }
 
+.about-me {
+    border: 1px solid rgba(255, 208, 0, 0.932);
+    padding: 10px;
+}
 
 
 
@@ -25,7 +29,9 @@ body {
 
 
 footer {
+    overflow: auto;
     background-color:rgba(18, 110, 133, 0.637); 
     text-align: center;
-    list-style-type: none;  
+    list-style-type: none; 
+     
 }
