@@ -15,18 +15,28 @@ body {
     height: auto;
 }
 
-.about-me {
-    border: 3px solid rgba(255, 208, 0, 0.932);
-    padding: 10px;
+hr {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 0;
+    border-top: 3px solid rgba(255, 208, 0, 0.932);
+}
+
+.table-color {
+    background-color: #6b7177;
     overflow: auto;
 }
 
-
 #footer {
     background-color:rgba(18, 110, 133, 0.637); 
-    border: 5px solid rgba(255, 208, 0, 0.932);
-    text-align: center;
+    text-align: right;
+    padding-right: 30px;
     list-style-type: none; 
     margin: 0%;
      
 }
+
+@media screen and (max-width: 576px) {
+    body {
+      margin: 0%;
+    }}
