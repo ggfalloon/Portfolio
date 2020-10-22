@@ -11,12 +11,21 @@ body {
 }
 
 .header-img {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     margin: auto;
-    background-image: url('./images/cream_pixels_@2X.png');
+    background-image: url('https://www.msta.org/wp-content/uploads/2017/10/watercolor-background-1.jpg');
     background-size: cover;
     background-position: center;
+}
+.pic {
+    margin-top: 20px;
+    
+}
+.banner-text {
+    position: absolute;
+    top: 45%;
+    left: 45%;
 }
 
 h2 {
@@ -48,6 +57,17 @@ hr {
 }
 
 @media screen and (max-width: 576px) {
-    body {
-      margin: 5%;
-    }}
+    
+    .img-size {
+        border: 0;
+    
+    }
+
+    .display-4 {
+    font-size: 45px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+}
