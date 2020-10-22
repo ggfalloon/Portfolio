@@ -11,38 +11,42 @@
 </head>
 
 <body>
+    <!-- Site Navigation Bar -->
     <nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color:rgb(24, 130, 138);">
         <div class="container">
             <a class="navbar-brand">Gabriele Falloon</a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">Connect</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!-- Header with Banner Image -->
+
     <header class="header-img">
         <div class="container">
             <div class="row">
-                <div class="col-4 m1-auto">
+                <div class="col-md-6 mr-auto">
                     <img src="./images/IMG_6321.jpg" class="pic mx-auto d-block border-0" alt="my picture" width="300">
                 </div>
 
-                <div class="col-8 banner-text text-white">
+                <div class="col-6 banner-text mr-auto text-white">
                     <h1 class="display-4">Gabriele Falloon</h1>
                     <h4>Full Stack Web Developer</h4>
                 </div>
@@ -54,13 +58,15 @@
         <hr />
     </p>
 
+    <!-- Two Column Section -->
+
     <div class="container">
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-6">
                 <h2>About Me</h2>
                 <div class="page-header">
 
-                    <section class="details" style="text-align: center;">
+                    <section class="details" style="text-align: justify-center;">
                         <p>I'm currently working on acheiving a certificate in <strong>Full Stack Web
                                 Development</strong>
                             from the
@@ -87,9 +93,7 @@
                 </div>
             </div>
 
-
-
-            <div class="col-md-5 justify-center">
+            <div class="col-md-5 mx-auto">
                 <h2>Skillset</h2>
                 <div class="page-header d-flex justify-center">
                     <table class="table table-dark table-style" style="text-align:center">
@@ -121,12 +125,11 @@
         <hr />
     </p>
 
-
+    <!-- Footer with Social Media Links -->
 
     <footer class="footer fixed-bottom mt-auto py-2 " id="footer">
         <div class="container">
             <span class="text-muted"></span>
-            <!-- <div class="row"><div class="col-md-12"> -->
 
             <a href="https://github.com/ggfalloon"
                 onclick="_gaq.push(['_trackEvent', 'exit', 'footer', 'GitHub']);"><span class="fa fa-github"></span>
@@ -137,13 +140,11 @@
             <a href="https://www.linkedin.com/in/gabriele-falloon/"
                 onclick="_gaq.push(['_trackEvent', 'exit', 'footer', 'LinkedIn']);"><span
                     class="fa fa-LinkedIn"></span><img
-                    src="https://cdn.iconscout.com/icon/free/png-256/linkedin-154-459182.png" alt="linkedin logo"
-                    width="40px" /></a>
-
+                    src="https://cdn.iconscout.com/icon/free/png-256/linkedin-154-459182.png" class="footer-padding"
+                    alt="linkedin logo" width="45px" /></a>
 
         </div>
     </footer>
-
 
 </body>
 
