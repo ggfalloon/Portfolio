@@ -1,10 +1,8 @@
 body {
     background-color: #ffffff;
     color: #55585c;
-    margin-left: 15%;
-    margin-right: 15%;
     font-size: 16px;
-    padding-top: 55px;
+    padding-top: 55px;   
     padding-bottom: 60px;
 }
 
@@ -12,14 +10,20 @@ body {
     color: white;
 }
 
-.card-img {
-    max-width: 100%; 
-    height: auto;
+.header-img {
+    height: 60vh;
+    width: 100%;
+    margin: auto;
+    background-image: url('./images/cream_pixels_@2X.png');
+    background-size: cover;
+    background-position: center;
 }
 
 h2 {
     text-align: center;
 }
+
+
 hr {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -29,14 +33,10 @@ hr {
     border-top: 3px solid rgb(255, 208, 0);
 }
 
-.main-columns {
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .table-style {
     background-color: #6b7177;
-}
+} 
 
 #footer {
     background-color:rgb(24, 130, 138); 
