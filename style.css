@@ -62,6 +62,11 @@ hr {
     color:#6b7177;
 }
 
+.submit-button:hover {
+    background-color:rgb(24, 130, 138); 
+    color:white;
+}
+
 #footer {
     background-color:rgb(24, 130, 138); 
     text-align: center;
