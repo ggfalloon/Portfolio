@@ -16,7 +16,7 @@ body {
 
 
 .header-img {
-    height: 90vh;
+    height: 80vh;
     width: 100%;
     margin: auto;
     background-image: url('./images/watercolor-background-1.jpg');
@@ -24,7 +24,7 @@ body {
     background-position: center;
 }
 
-/* Edits placement of my headshot image in banner */
+/* Edits placement of my image in banner */
 .pic {
     padding-top: 50px; 
     margin-top: 50px; 
@@ -77,6 +77,18 @@ hr {
 
 .footer-padding {
     margin-left: 20px;
+}
+
+.git, .link {
+    color: white;
+    font-size: 2em;
+    line-height: 1em;
+}
+
+.git:hover, .link:hover {
+    color: purple;
+    font-size: 2em;
+    line-height: 1em;
 }
 
 @media screen and (max-width: 576px) {
