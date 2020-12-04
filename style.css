@@ -83,6 +83,7 @@ hr {
     color: white;
     font-size: 2em;
     line-height: 1em;
+    padding: .3em;
 }
 
 .git:hover, .link:hover {
