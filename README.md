@@ -1,7 +1,7 @@
 # Portfolio
 
 ## CSS & Bootstrap Responsive Portfolio
-Utilizing the Boostrap CSS Framework, I've created a mobile responsive portfolio. The portfolio provides the user a way to learn more about me, the coding languages in my skillset, discover the projects I've worked on and provide a way to connect with me.
+Utilizing the Boostrap CSS Framework, I've created a mobile responsive portfolio. The portfolio provides the user a way to learn more about me, the coding languages in my skill set, discover the projects I've worked on and provide a way to connect with me.
 
 
 ## Usage
