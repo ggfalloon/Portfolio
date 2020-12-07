@@ -21,3 +21,4 @@ You'll find direct links to both my GitHub and LinkedIn accounts in the footer o
 
 ## License
 TBD
+&copy Gabriele Falloon - ggfalloon@gmail.com
