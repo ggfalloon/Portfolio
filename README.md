@@ -1,7 +1,7 @@
 # Portfolio
 
 ## CSS & Bootstrap Responsive Portfolio
-Utilizing the Boostrap CSS Framework, I've created a mobile responsive portfolio. The portfolio provides the user a way to learn more about me, the coding languages in my skillset, discover the projects I've worked on and a way to connect with me.
+Utilizing the Boostrap CSS Framework, I've created a mobile responsive portfolio. The portfolio provides the user a way to learn more about me, the coding languages in my skillset, discover the projects I've worked on and provide a way to connect with me.
 
 
 ## Usage
@@ -12,7 +12,7 @@ By clicking on the "Portfolio" link in the navagation bar, you'll see the projec
 Visit the "Connect" link to request more information.
 You'll find direct links to both my GitHub and LinkedIn accounts in the footer of every page. For convenience, the website is responsive and should adapt to any size screen. Thank you for stopping by!
 
-![profile](https://user-images.githubusercontent.com/71281652/97092147-1b16e700-1607-11eb-8b33-5bdbc024ca2d.png)
+![screencapture-file-Users-gfalloon-Coding-Homework-Portfolio-index-html-2020-12-06-23_13_02](https://user-images.githubusercontent.com/71281652/101312241-e0fd4f80-3818-11eb-8224-10f55e151f95.png)
 
 ## Credits
 * getBootstrap.com
