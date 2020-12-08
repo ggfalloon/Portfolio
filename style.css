@@ -18,7 +18,7 @@ body {
     background: url('./images/portbannerimg.PNG') no-repeat;
     background-size: cover;
     width: 100%;
-    height: 85vh;
+    height: 84vh;
     margin: auto;
 }
 
@@ -58,7 +58,7 @@ hr {
 
 .submit-button {
     background-color: rgb(255, 208, 0);
-    color:#6b7177;
+    color:black;
 
 }
 
