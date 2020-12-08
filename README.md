@@ -12,7 +12,7 @@ In the "Portfolio" section, you'll see recent projects I'm working on and contin
 Continue scrolling to the "Connect" section to request more information from me via email.
 You'll find direct links to both my GitHub and LinkedIn accounts in the footer of every page as well as direct link to email and a downloadable copy of my resume. For convenience, the navigation bar contains links to each section. The website is also responsive and will adapt to any size screen. Thank you for stopping by!
 
-![screencapture-file-Users-gfalloon-Coding-Homework-Portfolio-index-html-2020-12-06-23_13_02](https://user-images.githubusercontent.com/71281652/101312241-e0fd4f80-3818-11eb-8224-10f55e151f95.png)
+![screencapture-ggfalloon-github-io-Portfolio-2020-12-08-11_58_30](https://user-images.githubusercontent.com/71281652/101522604-1440fb00-394d-11eb-8c55-9aa1e001c4eb.png)
 
 ## Credits
 * getBootstrap.com
