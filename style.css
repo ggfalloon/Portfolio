@@ -41,7 +41,7 @@ hr {
 }
 
 .responsBrk {
-    display: none;
+    margin-top: 0px;
 }
 
 /* Adjusts margin for hr inside portfolio card */
