@@ -1,7 +1,7 @@
 body {
     background-color: #ffffff;
     color: #55585c;
-    font-size: 16px;
+    font-size: 18px;
     padding-top: 55px;   
     padding-bottom: 60px;
 }
@@ -24,6 +24,12 @@ body {
 
 h2 {
     text-align: center;
+    
+}
+
+.h2card {
+    margin-top: 3rem;
+    margin-bottom: 0;
 }
 
 /* Styled horizontal rule */
@@ -46,8 +52,8 @@ hr {
 
 /* Adjusts margin for hr inside portfolio card */
 .hr-card {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     margin-right: 5rem;
     margin-left: 5rem;
     border: 0;
@@ -152,11 +158,6 @@ hr {
 }
 
 @media screen and (max-width: 576px) {
-    
-    .header-img {
-        background: url('./images/IMG_6321.jpg') no-repeat;
-        background-size: cover;
-    }
 
     hr {
         margin-top: 2rem;
@@ -177,11 +178,6 @@ hr {
         border-top: 3px solid rgb(255, 208, 0);
     }
 
-    .responsBrk {
-        display: block;
-        margin-top: 30px;
-    }
-
     .display-4 {
         font-size: 45px;
     }
@@ -189,4 +185,24 @@ hr {
     h4 {
         font-size: 24px;
     }
+}
+
+@media screen and (max-width: 645px) {
+
+    .header-img {
+        background: url('./images/IMG_6321.jpg') no-repeat;
+        background-size: cover;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    .responsBrk {
+        display: block;
+        margin-top: 30px;
+    }
+
 }
