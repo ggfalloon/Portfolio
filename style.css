@@ -157,6 +157,22 @@ hr {
     line-height: 1em;
 }
 
+.link-connect {
+    color: rgb(61, 3, 61);
+    font-size: 2em;
+    line-height: 1em;
+    padding: .3em;
+}
+
+.connect-rule {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    border: 0;
+    border-top: 2px solid rgb(255, 208, 0);
+}
+
 @media screen and (max-width: 576px) {
 
     hr {
