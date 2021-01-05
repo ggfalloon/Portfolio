@@ -201,6 +201,7 @@ hr {
     h4 {
         font-size: 24px;
     }
+
 }
 
 @media screen and (max-width: 645px) {
@@ -208,13 +209,14 @@ hr {
     .header-img {
         background: url('./images/IMG_6321.jpg') no-repeat;
         background-size: cover;
+        height: 60vh;
+        margin: auto;
     }
     
 }
 
 
 @media screen and (max-width: 768px) {
-
 
     .responsBrk {
         display: block;
