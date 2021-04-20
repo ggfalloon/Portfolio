@@ -70,7 +70,7 @@ hr {
     background-color: #6b7177;
 } 
 
-#submit {
+/* #submit {
     background-color: rgb(255, 208, 0);
     color:#55585c;
 }
@@ -78,7 +78,7 @@ hr {
 #submit:hover {
     background-color:rgb(24, 130, 138); 
     color:white;
-}
+} */
 
 /* Styles portfolio icon links to github */
 .iconPort {
